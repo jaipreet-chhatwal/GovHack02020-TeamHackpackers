@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Dashboard - Brand</title>
+    <title>Profile - Brand</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
@@ -20,7 +20,7 @@
                 </a>
                 <hr class="sidebar-divider my-0">
                 <ul class="nav navbar-nav text-light" id="accordionSidebar">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="tag_location.html"><i class="fas fa-user"></i><span>Tag locations</span></a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="tag_person.html"><i class="fas fa-user"></i><span>Tag people</span></a></li>
                     <li class="nav-item" role="presentation"></li>
@@ -93,63 +93,27 @@
             </div>
             </nav>
             <div class="container-fluid">
-                <div class="text-left d-sm-flex justify-content-between align-items-center mb-4"><a class="btn btn-danger text-warning visible" role="button" href="report_hazard.html">Report a hazard</a>
-                    <div>
-                        <p></p>
-                    </div>
-                </div>
-                <h3 class="text-dark mb-0">Alerts!!</h3>
-                <div class="row">
-                    <div class="col-md-6 col-xl-3 mb-4">
-                        <div class="card shadow border-left-primary py-2">
+                <h3 class="text-dark mb-4">Report Hazard</h3>
+                <div class="row mb-3">
+                    <div class="col-lg-8">
+                        <div class="card shadow mb-3">
                             <div class="card-body">
-                                <div class="row align-items-center no-gutters">
-                                    <div class="col mr-2">
-                                        <div class="text-uppercase text-primary font-weight-bold text-xs mb-1"><span>bush fire @ north sydney!!</span></div>
-                                        <div class="text-dark font-weight-bold h5 mb-0"><span>Bush fire warning has been issued in the region. People are advised to take caution<a href="alert_template.html">&nbsp;...</a></span></div>
-                                    </div>
-                                    <div class="col-auto"><i class="fas fa-fire fa-2x text-gray-300"></i></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="d-sm-flex justify-content-between align-items-center mb-4">
-                    <h3 class="text-dark mb-0">Information!!</h3>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-xl-3 mb-4">
-                        <div class="card shadow border-left-info py-2">
-                            <div class="card-body">
-                                <div class="row align-items-center no-gutters">
-                                    <div class="col mr-2">
-                                        <div class="text-uppercase text-info font-weight-bold text-xs mb-1"><span>FlooD prone area</span></div>
-                                        <div class="row no-gutters align-items-center">
-                                            <div class="col-auto">
-                                                <div class="text-dark font-weight-bold h5 mb-0 mr-3"></div>
-                                            </div>
-                                            <div class="col"><span>This area is prone to flash floods. Please take necessary cautions.</span></div>
+                                <form>
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <div class="dropdown"><button class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">Type of Hazard&nbsp;</button>
+                                                    <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Bush Fire</a><a class="dropdown-item" role="presentation" href="#">Flood</a><a class="dropdown-item" role="presentation" href="#">Landslide</a></div>
+                                                </div>
+                                                <div><span>Description:</span></div>
+                                                <form class="d-none d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                                                    <div class="input-group"><textarea class="form-control"></textarea></div>
+                                                </form>
+                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-1"><label class="form-check-label" for="formCheck-1">I am safe</label></div>
+                                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-2"><label class="form-check-label" for="formCheck-1">I need help</label></div><button class="btn btn-primary" type="button">Report</button></div>
                                         </div>
                                     </div>
-                                    <div class="col-auto"><i class="fas fa-water fa-2x text-gray-300"></i></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-xl-3 mb-4">
-                        <div class="card shadow border-left-warning py-2">
-                            <div class="card-body">
-                                <div class="row align-items-center no-gutters">
-                                    <div class="col mr-2">
-                                        <div class="text-uppercase text-warning font-weight-bold text-xs mb-1"><span>EARTH quake risk area</span></div>
-                                        <div class="text-dark font-weight-bold h5 mb-0"><span>Earth quake prone area. Please take necessary precautions.</span></div>
-                                    </div>
-                                    <div class="col-auto"><i class="typcn typcn-warning fa-2x text-gray-300"></i></div>
-                                </div>
+                                </form>
                             </div>
                         </div>
                     </div>

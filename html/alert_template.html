@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Dashboard - Brand</title>
+    <title>Profile - Brand</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
@@ -20,7 +20,7 @@
                 </a>
                 <hr class="sidebar-divider my-0">
                 <ul class="nav navbar-nav text-light" id="accordionSidebar">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="tag_location.html"><i class="fas fa-user"></i><span>Tag locations</span></a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="tag_person.html"><i class="fas fa-user"></i><span>Tag people</span></a></li>
                     <li class="nav-item" role="presentation"></li>
@@ -93,63 +93,44 @@
             </div>
             </nav>
             <div class="container-fluid">
-                <div class="text-left d-sm-flex justify-content-between align-items-center mb-4"><a class="btn btn-danger text-warning visible" role="button" href="report_hazard.html">Report a hazard</a>
-                    <div>
-                        <p></p>
-                    </div>
-                </div>
-                <h3 class="text-dark mb-0">Alerts!!</h3>
-                <div class="row">
-                    <div class="col-md-6 col-xl-3 mb-4">
-                        <div class="card shadow border-left-primary py-2">
+                <h3 class="text-dark mb-4">Alerts</h3>
+                <div class="row mb-3">
+                    <div class="col-lg-8">
+                        <div class="card shadow mb-3">
                             <div class="card-body">
-                                <div class="row align-items-center no-gutters">
-                                    <div class="col mr-2">
-                                        <div class="text-uppercase text-primary font-weight-bold text-xs mb-1"><span>bush fire @ north sydney!!</span></div>
-                                        <div class="text-dark font-weight-bold h5 mb-0"><span>Bush fire warning has been issued in the region. People are advised to take caution<a href="alert_template.html">&nbsp;...</a></span></div>
-                                    </div>
-                                    <div class="col-auto"><i class="fas fa-fire fa-2x text-gray-300"></i></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="d-sm-flex justify-content-between align-items-center mb-4">
-                    <h3 class="text-dark mb-0">Information!!</h3>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-xl-3 mb-4">
-                        <div class="card shadow border-left-info py-2">
-                            <div class="card-body">
-                                <div class="row align-items-center no-gutters">
-                                    <div class="col mr-2">
-                                        <div class="text-uppercase text-info font-weight-bold text-xs mb-1"><span>FlooD prone area</span></div>
-                                        <div class="row no-gutters align-items-center">
-                                            <div class="col-auto">
-                                                <div class="text-dark font-weight-bold h5 mb-0 mr-3"></div>
+                                <form>
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <form class="d-none d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                                                    <div><label for="username"><strong>Level: High</strong><br></label></div>
+                                                    <div><label for="username"><strong>Location: North Sydney</strong><br></label></div>
+                                                    <div><label for="username"><strong>Time: 2.05pm Fri 14 Aug</strong><br></label></div>
+                                                    <div>
+                                                        <p><strong>Description:&nbsp;</strong>NSW Fire and Emergency Services crews are on scene at a bushfire burning near North Sydney, Sydney.&nbsp;This fire broke out earlier today and is burning within
+                                                            containment lines. The fire is posing no threat to property at this time. Nearby residents may be affected by a smoke haze throughout the afternoon and into tomorrow morning. North Sydney and
+                                                            nearby residents are asked to close windows and doors and if suffering from a respiratory condition, keep medications close by. Motorists should drive with caution and to conditions. If residents
+                                                            are concerned their property is under threat, they are advised to call Triple Zero (000) immediately.</p>
+                                                    </div>
+                                                </form>
                                             </div>
-                                            <div class="col"><span>This area is prone to flash floods. Please take necessary cautions.</span></div>
                                         </div>
                                     </div>
-                                    <div class="col-auto"><i class="fas fa-water fa-2x text-gray-300"></i></div>
-                                </div>
+                                </form>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-xl-3 mb-4">
-                        <div class="card shadow border-left-warning py-2">
+                        <div class="card shadow mb-3">
                             <div class="card-body">
-                                <div class="row align-items-center no-gutters">
-                                    <div class="col mr-2">
-                                        <div class="text-uppercase text-warning font-weight-bold text-xs mb-1"><span>EARTH quake risk area</span></div>
-                                        <div class="text-dark font-weight-bold h5 mb-0"><span>Earth quake prone area. Please take necessary precautions.</span></div>
+                                <form>
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <div class="form-group"><label for="username"><strong>Important links:</strong><br></label>
+                                                <div><a href="https://www.rfs.nsw.gov.au/__data/assets/pdf_file/0017/2933/BushFireSurvivalPlan.pdf" target="_blank">Bush fire survival plan.</a></div>
+                                                <div><a href="https://www.fire.nsw.gov.au/page.php?id=9209" target="_blank">Emergency Information.</a></div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-auto"><i class="typcn typcn-warning fa-2x text-gray-300"></i></div>
-                                </div>
+                                </form>
                             </div>
                         </div>
                     </div>
